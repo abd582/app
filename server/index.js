@@ -5,10 +5,10 @@ const app = express();
 
 // Create MySQL connection
 const conn = mysql.createConnection({
-    host: 'localhost',     // Replace with your host
-    user: 'root',          // Replace with your MySQL username
-    password: '',          // Replace with your MySQL password
-    database: 'test'       // Replace with your database name
+    host: 'fincloud.iwhost.org',     // Replace with your host
+    user: 'origina_Abd',          // Replace with your MySQL username
+    password: 'yh+njQI_Nf7T',          // Replace with your MySQL password
+    database: 'origina_services'       // Replace with your database name
 });
 
 // Connect to MySQL database
